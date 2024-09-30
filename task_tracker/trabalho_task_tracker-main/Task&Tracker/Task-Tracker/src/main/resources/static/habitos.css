@@ -1,0 +1,115 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte alternativa para um estilo diferente */
+    background-color: #f0f2f5; /* Fundo mais claro */
+    margin: 0;
+    padding: 20px;
+    color: #444; /* Texto em um tom mais suave */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Azul escuro para destaque */
+    margin-bottom: 25px;
+}
+
+/* Barra de ferramentas */
+.toolbar {
+    background-color: #3498db; /* Azul para diferenciar do verde */
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.toolbar a {
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+    margin: 0 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s; /* Animação adicional para transformação */
+}
+
+.toolbar a:hover {
+    background-color: #2980b9; /* Tom mais escuro no hover */
+    transform: scale(1.05); /* Leve aumento no tamanho ao passar o mouse */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    border-radius: 8px; /* Borda arredondada */
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #2980b9; /* Azul mais escuro para o cabeçalho */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f7f9fc; /* Fundo leve ao passar o mouse */
+}
+
+/* Botão de envio e ações */
+button {
+    background-color: #e67e22; /* Laranja para contraste */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 3px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s; /* Animação para hover */
+}
+
+button:hover {
+    background-color: #d35400; /* Tom mais escuro no hover */
+    transform: translateY(-2px); /* Leve elevação ao passar o mouse */
+}
+
+/* Mensagem de erro */
+.error-message {
+    color: #e74c3c; /* Vermelho para mensagens de erro */
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Botões de navegação na parte inferior */
+div.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.center button {
+    background-color: #16a085; /* Verde diferente para os botões de navegação */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+div.center button:hover {
+    background-color: #138d75; /* Tom mais escuro no hover */
+}

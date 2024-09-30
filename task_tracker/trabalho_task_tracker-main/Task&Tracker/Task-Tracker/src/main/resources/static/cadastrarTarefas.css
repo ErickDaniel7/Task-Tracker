@@ -1,0 +1,89 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Verdana', Geneva, sans-serif; /* Mudança de fonte para dar um aspecto diferente */
+    background-color: #eef0f5; /* Mudança na cor do fundo para um tom suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #2d2d2d; /* Tom mais escuro para contraste */
+    text-align: center;
+    font-size: 2em; /* Tamanho maior para destacar */
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12); /* Sombra mais pronunciada para profundidade */
+    padding: 25px; /* Um pouco mais de espaço interno */
+    width: 90%; /* Ajuste para maior flexibilidade */
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Aumentado para dar mais espaço entre os elementos */
+}
+
+/* Labels e inputs */
+label {
+    font-weight: 600; /* Ajuste no peso da fonte */
+    color: #3a3a3a; /* Cor ligeiramente mais escura */
+}
+
+input[type="text"], input[type="checkbox"] {
+    padding: 12px; /* Aumentei o padding para conforto do usuário */
+    border: 1px solid #b0b0b0; /* Cor da borda ajustada para um tom mais escuro */
+    border-radius: 6px; /* Bordas mais arredondadas */
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Transição suave ao focar */
+}
+
+input[type="text"]:focus {
+    border-color: #5cb85c; /* Mudança na cor da borda ao focar */
+}
+
+/* Estilo do checkbox */
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px; /* Espaço entre checkbox e label */
+}
+
+/* Botão de envio */
+button {
+    padding: 12px; /* Aumentei o padding para uma aparência mais robusta */
+    background-color: #449d44; /* Mudança na cor do botão */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px; /* Bordas levemente mais arredondadas */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+    background-color: #398439; /* Cor mais escura ao passar o mouse */
+}
+
+/* Container para o formulário */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 15px; /* Adicionado para garantir espaçamento em telas menores */
+}
+
+.container h1 {
+    margin-bottom: 25px; /* Aumentei o espaço abaixo do título */
+}
+
+.container form {
+    width: 100%;
+    max-width: 420px; /* Ajustei o tamanho máximo do formulário */
+}

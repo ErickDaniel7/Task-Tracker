@@ -1,0 +1,73 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Alterei a fonte para uma variação diferente */
+    background-color: #eef1f5; /* Mudança na cor de fundo para um tom mais claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 10px; /* Bordas um pouco mais arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Aumentei o shadow para dar mais profundidade */
+    padding: 35px; /* Levemente reduzido */
+    width: 90%; /* Permitindo mais flexibilidade em telas menores */
+    max-width: 450px; /* Aumentei o tamanho máximo */
+    text-align: center;
+}
+
+h1 {
+    color: #2f2f2f; /* Tom um pouco mais escuro */
+    margin-bottom: 25px; /* Margem inferior aumentada para dar mais espaço */
+    font-size: 1.8em; /* Aumentei um pouco o tamanho */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px; /* Alterei `gap` para `row-gap` para garantir compatibilidade e aumentei o espaçamento */
+}
+
+label {
+    font-weight: 600; /* Ajustei o peso da fonte */
+    color: #444; /* Cor mais escura */
+    text-align: left;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 12px; /* Aumentei o padding para mais conforto */
+    border: 1px solid #b5b5b5; /* Cor da borda mais escura */
+    border-radius: 6px; /* Bordas mais arredondadas */
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Transição suave para foco */
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #5cb85c; /* Mudança na cor da borda ao focar */
+}
+
+button {
+    padding: 12px; /* Aumentei o padding */
+    background-color: #57a957; /* Cor ligeiramente diferente para o botão */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px; /* Mais arredondado */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Adicionada transição suave */
+}
+
+button:hover {
+    background-color: #499c49; /* Alterei a cor de hover para diferenciar */
+}
+
+/* Ajuste de responsividade */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 25px; /* Aumentei um pouco para manter a consistência */
+    }
+}

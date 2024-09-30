@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    margin: 20px auto; /* Adicionei uma margem superior para dar mais espaço */
+    max-width: 350px; /* Ajustei o tamanho máximo */
+    padding: 10px; /* Adicionei um pouco de padding ao container */
+    background-color: #f9f9f9; /* Fundo levemente diferente */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Margem inferior ligeiramente reduzida */
+    font-weight: 500; /* Deixei a fonte um pouco mais pesada */
+    color: #333; /* Mudança na cor do texto */
+}
+
+input {
+    width: 95%; /* Reduzi um pouco a largura */
+    padding: 12px; /* Aumentei um pouco o padding para mais conforto */
+    margin-bottom: 12px; /* Menos espaço entre os inputs */
+    border: 1px solid #b0b0b0; /* Cor da borda mais escura */
+    border-radius: 6px; /* Adicionei borda arredondada */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna para profundidade */
+}
+
+button {
+    background-color: #28a745; /* Alterei a cor do botão */
+    color: #fff; /* Mantive o texto branco */
+    padding: 12px 25px; /* Padding ajustado para o botão */
+    border: none;
+    border-radius: 6px; /* Borda mais arredondada */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adicionei uma transição suave */
+}
+
+button:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Fonte alternativa moderna */
+    background-color: #f4f6f8; /* Cor de fundo suave diferente */
+    margin: 0; /* Remove margens padrão */
+    padding: 25px; /* Um pouco mais de espaçamento ao redor */
+}
+
+h1 {
+    color: #495057;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em; /* Aumentando um pouco o tamanho do título */
+}
+
+table {
+    width: 100%;
+    border-radius: 10px; /* Borda mais arredondada */
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
+    background-color: #ffffff; /* Mantendo o fundo branco */
+    border-spacing: 0; /* Removendo espaçamento entre células */
+}
+
+th, td {
+    padding: 12px; /* Menos espaçamento para um visual mais compacto */
+    border-bottom: 1px solid #ced4da;
+    text-align: left;
+}
+
+th {
+    background-color: #5a6268; /* Cor ligeiramente diferente para o cabeçalho */
+    color: #ffffff;
+    font-weight: 600; /* Ajuste no peso da fonte */
+}
+
+tr:nth-child(even) {
+    background-color: #f1f3f5; /* Cor de fundo levemente diferente para linhas pares */
+}
+
+tr:hover {
+    background-color: #dfe3e6; /* Tom mais claro ao passar o mouse */
+}
+
+tr:last-child td {
+    border-bottom: 0; /* Sem borda para a última linha */
+}
